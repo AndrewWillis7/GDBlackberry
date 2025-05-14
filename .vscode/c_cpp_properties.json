@@ -5,8 +5,7 @@
       "includePath": [
         "${workspaceFolder}/godot-cpp/include/**",
         "${workspaceFolder}/godot-cpp/gdextension/**",
-        "${workspaceFolder}/godot-cpp/include/core/**",
-        "${workspaceFolder}/godot-cpp/include/gen/**",
+        "${workspaceFolder}/godot-cpp/gen/**",
         "C:/msys64/mingw64/include/**"  // MinGW headers (adjust if needed)
       ],
       "defines": [

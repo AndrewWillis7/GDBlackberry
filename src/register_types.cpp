@@ -1,5 +1,5 @@
 #include <godot_cpp/core/class_db.hpp>
-#include "shape_generator.h"
+#include "./gen3D/shape_generator.h"
 
 void initialize_shape_module(ModuleInitializationLevel p_level) {
     if (p_level == MODULE_INITIALIZATION_LEVEL_EDITOR) {
