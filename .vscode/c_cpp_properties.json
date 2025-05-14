@@ -5,22 +5,19 @@
       "includePath": [
         "${workspaceFolder}/godot-cpp/include/**",
         "${workspaceFolder}/godot-cpp/gdextension/**",
-        "${workspaceFolder}/godot-cpp/gen/**",
-        "C:/msys64/mingw64/include/**"  // MinGW headers (adjust if needed)
+        "${workspaceFolder}/godot-cpp/gen/**"
       ],
       "defines": [
         "GDEXTENSION_LIBRARY",
         "WINDOWS_ENABLED",
         "TYPED_METHOD_BIND"
       ],
-      "compilerPath": "C:/msys64/mingw64/bin/g++.exe",  // Path to your MinGW g++
       "cStandard": "c17",
       "cppStandard": "c++17",
       "intelliSenseMode": "windows-gcc-x64",
       "browse": {
         "path": [
-          "${workspaceFolder}",
-          "C:/msys64/mingw64/include"  // MinGW system headers
+          "${workspaceFolder}"
         ],
         "limitSymbolsToIncludedHeaders": true
       }

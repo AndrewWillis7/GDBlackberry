@@ -8,3 +8,8 @@ In Terminal (Builds the Bindings):
 cd godot-cpp
 scons platform=windows target=editor generate_bindings=yes --jobs=4
 ```
+
+In Terminal (Builds the Project):
+```PYTHON
+scons platform=windows target=editor -j4
+```
