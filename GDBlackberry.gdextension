@@ -1,10 +1,6 @@
 [configuration]
-entry_symbol = "shape_generator_init"
+entry_symbol = "GDBlackberry_init"
 
 [libraries]
 # Windows
-windows.x86_64 = "bin/shape_generator.dll"
-# Linux
-linux.x86_64 = "bin/libshape_generator.so"
-# macOS
-macos.arm64 = "bin/libshape_generator.dylib"
+windows.x86_64 = "bin/GDBlackberry.dll"
