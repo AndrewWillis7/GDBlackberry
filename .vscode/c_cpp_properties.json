@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/godot-cpp/include/**",
+                "${workspaceFolder}/godot-cpp/gdextension/**"
+            ],
+            "defines": ["GDEXTENSION_LIBRARY"],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

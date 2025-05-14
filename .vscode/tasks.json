@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Plugin (Linux)",
+            "type": "shell",
+            "command": "scons platform=linux target=editor -j4",
+            "group": "build",
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        },
+        {
+            "label": "Build Plugin (Windows)",
+            "type": "shell",
+            "command": "scons platform=windows target=editor -j4",
+            "group": "build",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        }
+    ]
+}
