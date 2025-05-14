@@ -2,7 +2,9 @@
 #ifndef SHAPE_GENERATOR_H
 #define SHAPE_GENERATOR_H
 
+
 #include <godot_cpp/classes/editor_plugin.hpp>
+#include <godot_cpp/classes/editor_plugin_registration.hpp>
 #include <godot_cpp/classes/mesh_instance3d.hpp>
 #include <godot_cpp/classes/box_mesh.hpp>
 #include <godot_cpp/classes/sphere_mesh.hpp>

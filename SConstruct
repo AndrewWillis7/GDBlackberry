@@ -1,5 +1,4 @@
-# SConstruct
-env = Environment()
+env = Environment() # type: ignore
 
 # Godot-CPP paths
 env.Append(CPPPATH=["godot-cpp/include"])
@@ -15,6 +14,7 @@ env.Append(CPPPATH=[
 
 # For MSVC
 env.Append(CPPDEFINES=["WINDOWS_ENABLED", "TYPED_METHOD_BIND"])
+env.Append(CXXFLAGS=['/std:c++17'])
 
 # Compiler settings (adjust for your OS)
 env["platform"] = "windows"

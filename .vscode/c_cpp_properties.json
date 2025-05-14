@@ -21,6 +21,17 @@
         ],
         "limitSymbolsToIncludedHeaders": true
       }
+    },
+
+   {
+      "name": "Windows",
+      "includePath": [
+        "${workspaceFolder}/godot-cpp/include",
+        "${workspaceFolder}/godot-cpp/gdextension",
+        "${workspaceFolder}/godot-cpp/include/core",
+        "${workspaceFolder}/godot-cpp/include/gen"
+      ],
+      "defines": ["GDEXTENSION_LIBRARY"]
     }
   ],
   "version": 4
